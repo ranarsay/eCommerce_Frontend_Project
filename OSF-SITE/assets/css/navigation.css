@@ -1,0 +1,58 @@
+.navigation .navigation-list .navigation-item .navigation-link{
+    display: block;
+    font-size: 1rem;
+    color: #262a32;
+
+}
+
+.navigation .navigation-list .navigation-item .navigation-link-dropdown{
+    display: block;
+    font-size: 1rem;
+    color: #262a32;
+}
+@media screen and (min-width: 1280px) {
+
+    .navigation .navigation-list{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: -15px;
+        margin-right: -15px;
+
+    }
+    .navigation .navigation-list .navigation-item .navigation-link-dropdown:hover{
+        background-color: #262a32;
+        color: white;
+        display: block;
+
+    }
+
+    .navigation .navigation-list .navigation-item {
+        font-size: 14;
+        padding: 15px;
+        padding-right: 15px;
+    }
+    .navigation{
+        margin-left: -70px;
+
+    }
+    .buttons .button-item{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: -15px;
+        margin-right: -15px;
+        color: #a8a6a5;
+    }
+
+    .buttons .button-list .button-item {
+        
+        padding: 15px;
+        padding-right: 15px;
+    }
+    .buttons{
+        margin-left: -70px;
+
+    }
+    
+}
