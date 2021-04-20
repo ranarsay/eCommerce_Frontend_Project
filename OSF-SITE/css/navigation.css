@@ -11,8 +11,13 @@
 }
 
 .buttons .button-list .button-item .button-link {
-  display: block;
+  display: inline-block;
   font-size: 1rem;
+}
+
+.a {
+  display: inline-block;
+  border: none;
 }
 
 .navigation .dropdown-content {

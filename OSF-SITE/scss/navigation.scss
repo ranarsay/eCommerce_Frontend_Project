@@ -11,9 +11,14 @@
 
 }
 .buttons .button-list .button-item .button-link{
-    display: block;
+    display: inline-block;
     font-size: 1rem;
 }
+.a{
+  display: inline-block;
+  border: none;
+}
+
 .navigation .dropdown-content{
     float: left;
     overflow: hidden;
@@ -58,8 +63,8 @@
 .navigation .navigation-list .navigation-item .navigation-link .dropdown:hover .dropdown-content {
     display: block;
   }
+ 
   
-
   .dropdown-column {
     float: left;
     width: 20%;
@@ -83,13 +88,21 @@
     display: table;
     clear: both;
   }
+ 
+  
+ 
   
   @media screen and (max-width: 320px) {
+    
+    
+  
     .dropdown-column {
       width: 100%;
       height: auto;
     }
+   
   }
+
   
 @media screen and (min-width: 1280px) {
 

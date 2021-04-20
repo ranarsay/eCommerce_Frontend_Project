@@ -1,0 +1,156 @@
+@media screen and (min-width: 1024px) {
+  .hero-section .hero-content {
+    display: none;
+    max-width: 500px;
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+
+  .hero-section .hero-content p {
+    font-size: 14pt;
+    position: relative;
+    bottom: 28px;
+    left: 16px;
+    margin-left: auto;
+    color: white;
+  }
+
+  .hero-section .hero-content h2 {
+    font-size: 48pt;
+    margin-left: auto;
+    margin-left: auto;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 130px;
+    position: absolute;
+    left: 16px;
+  }
+
+  .hero-section .hero-content .view-more {
+    color: white;
+    bottom: 10px;
+    position: absolute;
+    left: 16px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  max-width: 800px;
+  position: left;
+  margin-left: 120px;
+}
+
+.mySlslidesides {
+  display: none;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 300px;
+}
+
+.text2 {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 200px;
+}
+
+.text3 {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.text4 {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.text5 {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 200px;
+}
+
+.text6 {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 200px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=section.css.map */

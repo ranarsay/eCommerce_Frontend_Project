@@ -3,7 +3,7 @@
 <html lang="en">
  <head>
      <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE-edge">
+     <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1">
      <title>OSF Academy</title>
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="assets/fontawesome-free-5.15.3-web/css/all.min.css">
@@ -21,7 +21,7 @@
                     </a>
 
                  </div>
-                 <div class="column">
+                 <div id="links" class="column mobile-none">
                      <nav class="navigation">
                          <ul class="navigation-list">
                              <li class="navigation-item">
@@ -99,12 +99,12 @@
                             <div class="column">
                                 <div class="row" align-center style="justify-content: space-between;">
                                     <li class="navigation-item">
-                                        <a  href="#" class="dropdown navigation-link" >EN
+                                        <a  href="#" class="dropdown navigation-link" style="color:#a0a2a5;;" >EN 
                                             <i class="fa fa-caret-down"></i>
                                         </a>
                                     </li>
                                     <li class="navigation-item">
-                                        <a  href="#" class="dropdown navigation-link" >$ US
+                                        <a  href="#" class="dropdown navigation-link" style="color:#a0a2a5;">$ US
                                             <i class="fa fa-caret-down"></i>
                                         </a>
                                     </li>
@@ -120,30 +120,71 @@
                  <div class="column">
                         <a href="#" class="buttons">
                             <i class="button-item">
-                                <img href="#" class="button-link" src="assets/icon/search.svg"  alt="" >
+                                <i class="fa fa-search" style="color:#a0a2a5;"></i>
                             </i>
                             <i class="button-item">
-                               <img href="#" class="button-link" src="assets/icon/profile.svg" alt="">
+                                <i class="fa fa-user" style="color:#a0a2a5;"></i>
+                               
                             </i>
                            <i class="button-item">
-                               <img href="#" class="button-link" src="assets/icon/heart.svg" alt="">
+                            <i class="fa fa-heart" style="color:#a0a2a5;"></i>
+                               
                            </i>
                            <i class="button-item">
-                               <img href="#" class="button-link" src="assets/icon/shopping-bag.svg" alt="">
+                            <i class="fas fa-shopping-basket" style="color:#a0a2a5;"></i>
+                               
                            </i>
                         </a>
                  </div>
-                 
-
              </div>
+         </div>
+     </header>
+     
 
+     <section class="hero-section">
+         <div class="slideshow-container">
+            <div class="mySlides fade">
+    
+                <img src="assets/img/heroImage.jpg" style="width:100%">
+                <div class="text">Control and manage any device with cloud solutions</div>
+            <div class="text2">Improve business performance and the user experience with the right mix of IoT technology and processes</div>
+            <a href="" type="button"VIEW MORE></a>
+            
+            
+              </div>
+            
+              <div class="mySlides fade">
+                
+                <img src="assets/img/slider2.png" style="width:100%">
+                <div class="text3">Control and manage any device with cloud solutions</div>
+            <div class="text4">Improve business performance and the user experience with the right mix of IoT technology and processes</div>
+                <a href="" type="button"VIEW MORE></a>
+                
+              </div>
+            
+              <div class="mySlides fade">
+                
+                <img src="assets/img/slider3.png" style="width:100%">
+                <div class="text5">Control and manage any device with cloud solutions</div>
+            <div class="text6">Improve business performance and the user experience with the right mix of IoT technology and processes</div>
+                
+                <a href="" type="button"VIEW MORE></a>
+                
+              </div>
+            
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
 
          </div>
+  
 
-     </header>
+     </section>
 
      <script type="text/javascript" src="assets/js/app.js"></script>
  </body>
+ 
  </html>
 
- 
