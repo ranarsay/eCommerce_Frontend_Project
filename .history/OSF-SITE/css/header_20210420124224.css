@@ -1,4 +1,4 @@
-@import url("navigation.css");
+@import url("navigation.scss");
 .header {
   padding: 2rem 0;
 }
