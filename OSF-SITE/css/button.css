@@ -32,4 +32,19 @@
   color: #a0a2a5;
 }
 
+.product-buttons {
+  padding: 14px;
+}
+
+.load-more {
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 10px 55px;
+  background-color: transparent;
+  position: relative;
+  text-align: center;
+  margin-left: 600px;
+}
+
 /*# sourceMappingURL=button.css.map */
