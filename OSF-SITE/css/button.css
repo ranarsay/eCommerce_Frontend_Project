@@ -9,12 +9,10 @@
   padding: 10px 25px;
   background-color: transparent;
   margin-bottom: 100px;
-  margin-left: 25px;
   bottom: 10px;
-  width: 100%;
-  text-align: rigth;
   position: absolute;
   align-items: center;
+  margin-left: 25px;
 }
 
 .follow {
@@ -23,6 +21,15 @@
   border-radius: 50px;
   padding: 10px 25px;
   background-color: transparent;
+}
+
+.button-item {
+  color: #a0a2a5;
+  padding: 5px;
+}
+
+.drop-item {
+  color: #a0a2a5;
 }
 
 /*# sourceMappingURL=button.css.map */

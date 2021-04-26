@@ -8,15 +8,15 @@
   }
 }
 .slideshow-container {
-  max-width: 800px;
+  max-width: 900px;
   position: left;
   margin-left: 120px;
 }
 
 .dots {
-  width: 100px;
+  width: 200px;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 50%;
   margin-left: -50px;
 }
@@ -122,6 +122,38 @@
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+.banner {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  margin-left: 750px;
+  font-size: 48px;
+  top: 40%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  float: left;
+}
+
+.centered2 {
+  margin-left: 750px;
+  position: absolute;
+  font-size: 14px;
+  top: 50%;
+  bottom: 70%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  float: left;
 }
 
 @-webkit-keyframes fade {
