@@ -29,8 +29,7 @@
 .services .image {
         max-height: 67px;
         width: auto;
-        margin: 0 25px;
-
+        margin: 0 80px;
     }
 
  .services .description {
@@ -38,18 +37,18 @@
     }
 
 .services .title {
+    
         color: white;
         font-size: 18px;
         text-transform: uppercase;
         font-weight: 700;
         margin-bottom: 10px;
-
+        
     }
 
  .services .subtitle {
         width: 145px;
         color: #84807D;
         font-size: 14px;
-        margin: 0;
 
     }

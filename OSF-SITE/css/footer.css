@@ -1,29 +1,16 @@
 .footer {
-  display: block;
   background-color: white;
-  padding: 40px;
   margin-top: 60px;
-  height: 345px;
   font-size: 13px;
-  
-  @media only screen and (min-width: 768px) {
-    display: block;
-}
+
 }
 .footer .container{
   position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   
-        @media only screen and (min-width: 768px) {
-          flex-direction: row;
-      }
-
-      @media only screen and (min-width: 992px) {
-          margin: auto;
-      }   
 }
 
 .footer-row {
@@ -31,9 +18,9 @@
 }
 
 .footer-column {
-  height: 400px;
+  height: 300px;
   float: left;
-  padding-right: 80px;
+  padding-right: 70px;
 }
 
 .footer-column a {
@@ -50,7 +37,7 @@
 }
 
 .social-media {
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .footer .adress p {

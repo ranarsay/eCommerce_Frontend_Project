@@ -2,100 +2,50 @@
 .error-page {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
     background-color: white;
     padding-top: 25px;
-    border-radius: 8px;
+    padding-bottom: 40px;
+   
+}
+.header{
+    text-align: center;
 }
 
-    .content-left {
-        width: 295px;
-        height: 290px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url("assets/img/bg-error.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-
-        
+   .content-left {
+        margin-left: 90px;
+  
     }
 
     .exclamation {
-        color: black;
+        color: #98c93c;
         font-size: 90px;
         font-weight: 900;
-        
-    
+        margin-left: 100px;
     }
 
-    .content_right {
+    .error-page .content-right {
+        justify-content: right;
         width: 100%;
         height: auto;
-        padding: 20px;
 
-     
     }
+   
 
-    .title {
+    .content-right p{
         font-size: 22px;
         font-weight: 900;
-
+        margin-left: 130px;
+        width: 400px;
     }
+    
 
-    .subtitle {
-        color: #545454;
+
+    .error-page .link {
         font-size: 14px;
-
-     
-    }
-
-    .link {
-        font-size: 14px;
-        display: inline-block;
-        color: black;
-        margin: 15px 0 20px;
-
- 
-    }
-
-    .search-box {
-        border: 1.5px solid #EBE3D7;
-        display: flex;
-        justify-content: space-between;
-        height: 30px;
-        border-radius: 40px;
-        padding: 0;
-
+        color: #98c93c;
+        margin-left: -400px;
+        margin-top: 80px;
 
     }
 
-    .search-text {
-        border: none;
-        background: none;
-        outline: none;
-        padding: 0;
-        color: #595756;
-        font-size: 14px;
-        margin-left: 30px;
-        width: 80%;
-
-    }
-
-    .search-btn {
-        font-size: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 1px;
-        width: 45px;
-        height: 26px;
-        border-radius: 50%;
-        color: #595756;
-        transform: scaleX(-1);
-
-      
-    }
 
