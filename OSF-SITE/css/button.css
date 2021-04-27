@@ -14,6 +14,9 @@
   align-items: center;
   margin-left: 25px;
 }
+.view-more a{
+  color: white;
+}
 
 .follow {
   color: #3a5b96;
