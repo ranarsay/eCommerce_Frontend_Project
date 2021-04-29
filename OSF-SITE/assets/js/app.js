@@ -144,6 +144,7 @@ function testFirstCookie(){
 	   }		
 	}
 }
+
 $(document).ready(function(){
     $("#cookieButton").click(function(){
 		console.log('Understood');
@@ -155,3 +156,6 @@ $(document).ready(function(){
 	testFirstCookie();
 });
 // Cookie  END
+
+
+
